@@ -1,0 +1,42 @@
+#page-container {
+    position: relative;
+    min-height: 100vh;
+  }
+  
+#content-wrap {
+    padding-bottom: 6rem;    /* Footer height */
+  }
+  
+#footer {
+    position: absolute;
+    right: 0;bottom:-100;left:0;
+    margin-bottom: 0px;
+  }
+
+#navBarPadding {
+    padding-bottom: 20px;
+}
+
+#imgSize{
+    max-height: 65%;
+}
+
+body {
+  background-image: url("./images/backgroundpattern.png");
+  align-items: center;
+}
+
+.opacity {
+  opacity: 70%; 
+}
+
+footer {
+  margin-top: 30px;
+  margin-bottom: 0px;
+}
+
+.italic {
+  font-style: oblique;
+}
+
+
