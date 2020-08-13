@@ -50,6 +50,14 @@ const projects = [
         p: "An ad-free weather app.",
         repo: "https://github.com/jasonstevens13/weather-dashboard",
         deployed: "https://jasonstevens13.github.io/weather-dashboard/"
+    },
+    {
+        id: 7,
+        img: "./images/stockliteracy.JPG",
+        title: "Stock Literacy",
+        p: "A gamified site for stock 101 lessons.",
+        repo: " https://github.com/wayele/StockLiteracy",
+        deployed: "https://stocklit.herokuapp.com/"
     }
 ];
 
