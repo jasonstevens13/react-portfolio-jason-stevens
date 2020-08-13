@@ -56,7 +56,7 @@ const projects = [
         img: "./images/stockliteracy.JPG",
         title: "Stock Literacy",
         p: "A gamified site for stock 101 lessons.",
-        repo: " https://github.com/wayele/StockLiteracy",
+        repo: "https://github.com/wayele/StockLiteracy",
         deployed: "https://stocklit.herokuapp.com/"
     }
 ];
