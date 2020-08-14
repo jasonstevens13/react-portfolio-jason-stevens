@@ -27,7 +27,7 @@ function ContactCard() {
                     </a>
                 </h6>
                 <h6> Resume:
-                    <a className="navbar-brand" href="./docs/Jason_Stevens_Resume9.pdf" target="_blank" alt="Resume">
+                    <a className="navbar-brand" href="./docs/jason-stevens-resume-10.pdf" target="_blank" alt="Resume">
                         <svg className="bi bi-file-text" width="40" height="40" viewBox="0 0 16 16"
                             fill="currentColor" xmlns="http://www.w3.org/2000/svg">
                             <path fill-rule="evenodd"
