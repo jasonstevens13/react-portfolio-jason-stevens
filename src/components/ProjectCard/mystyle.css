@@ -1,5 +1,6 @@
 
 #projectCard {
-  max-width: 100%; 
   width: 50rem;
+  max-width: auto; 
+  max-height: auto;
 }

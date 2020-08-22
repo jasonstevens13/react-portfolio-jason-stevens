@@ -78,33 +78,130 @@ function ProjectCard() {
         <div className="float-left">
             <div className="card-deck mt-3">
 
-                {projects.map(project => (
-                    <div className="row mb-3">
-                        <div className="col mb-3"></div>
-                        <div className="col-10 mb-3" id="projectCard" key={project.id}>
-                            <div className="card h-100 border-dark">
-                                <img className="card-img-top" src={project.img}></img>
-                                <div className="card-body">
-                                    <h2 id="headline1" className="card-title titles">{project.title}</h2>
-                                    <p className="card-text italic">{project.p}</p>
-                                    <p>{project.t}</p>
-                                </div>
-                                <div className="card-footer bg-transparent text-muted mt-3">
-                                    <a href={project.repo}
-                                        className="btn btn-outline-secondary btn-sm btn-block" target="_blank"
-                                        rel="noopener noreferrer">GitHub Repo</a>
-                                    <a href={project.deployed}
-                                        className="btn btn-outline-secondary btn-sm btn-block" target="_blank"
-                                        rel="noopener noreferrer">Deployed App</a>
-                                </div>
+                <div className="row">
+                    <div className="col-lg-6 mb-3" id="projectCard" key={projects[0].id}>
+                        <div className="card h-100 border-dark">
+                            <img className="card-img-top" src={projects[0].img}></img>
+                            <div className="card-body">
+                                <h2 id="headline1" className="card-title titles">{projects[0].title}</h2>
+                                <p className="card-text italic">{projects[0].p}</p>
+                                <p>{projects[0].t}</p>
+                            </div>
+                            <div className="card-footer bg-transparent text-muted mt-3">
+                                <a href={projects[0].repo}
+                                    className="btn btn-secondary btn-sm btn-block" target="_blank"
+                                    rel="noopener noreferrer">GitHub Repo</a>
+                                <a href={projects[0].deployed}
+                                    className="btn btn-secondary btn-sm btn-block" target="_blank"
+                                    rel="noopener noreferrer">Deployed App</a>
                             </div>
                         </div>
-                        <div className="col mb-3"></div>
                     </div>
-                ))}
+
+                    <div className="col-lg-6 mb-3" id="projectCard" key={projects[1].id}>
+                        <div className="card h-100 border-dark">
+                            <img className="card-img-top" src={projects[1].img}></img>
+                            <div className="card-body">
+                                <h2 id="headline1" className="card-title titles">{projects[1].title}</h2>
+                                <p className="card-text italic">{projects[1].p}</p>
+                                <p>{projects[1].t}</p>
+                            </div>
+                            <div className="card-footer bg-transparent text-muted mt-3">
+                                <a href={projects[1].repo}
+                                    className="btn btn-secondary btn-sm btn-block" target="_blank"
+                                    rel="noopener noreferrer">GitHub Repo</a>
+                                <a href={projects[1].deployed}
+                                    className="btn btn-secondary btn-sm btn-block" target="_blank"
+                                    rel="noopener noreferrer">Deployed App</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div className="row">
+                    <div className="col-lg-6 mb-3" id="projectCard" key={projects[2].id}>
+                        <div className="card h-100 border-dark">
+                            <img className="card-img-top" src={projects[2].img}></img>
+                            <div className="card-body">
+                                <h2 id="headline1" className="card-title titles">{projects[2].title}</h2>
+                                <p className="card-text italic">{projects[2].p}</p>
+                                <p>{projects[2].t}</p>
+                            </div>
+                            <div className="card-footer bg-transparent text-muted mt-3">
+                                <a href={projects[2].repo}
+                                    className="btn btn-secondary btn-sm btn-block" target="_blank"
+                                    rel="noopener noreferrer">GitHub Repo</a>
+                                <a href={projects[2].deployed}
+                                    className="btn btn-secondary btn-sm btn-block" target="_blank"
+                                    rel="noopener noreferrer">Deployed App</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className="col-lg-6 mb-3" id="projectCard" key={projects[3].id}>
+                        <div className="card h-100 border-dark">
+                            <img className="card-img-top" src={projects[3].img}></img>
+                            <div className="card-body">
+                                <h2 id="headline1" className="card-title titles">{projects[3].title}</h2>
+                                <p className="card-text italic">{projects[3].p}</p>
+                                <p>{projects[3].t}</p>
+                            </div>
+                            <div className="card-footer bg-transparent text-muted mt-3">
+                                <a href={projects[3].repo}
+                                    className="btn btn-secondary btn-sm btn-block" target="_blank"
+                                    rel="noopener noreferrer">GitHub Repo</a>
+                                <a href={projects[3].deployed}
+                                    className="btn btn-secondary btn-sm btn-block" target="_blank"
+                                    rel="noopener noreferrer">Deployed App</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div className="row">
+                    <div className="col-lg-6 mb-3" id="projectCard" key={projects[5].id}>
+                        <div className="card h-100 border-dark">
+                            <img className="card-img-top" src={projects[5].img}></img>
+                            <div className="card-body">
+                                <h2 id="headline1" className="card-title titles">{projects[5].title}</h2>
+                                <p className="card-text italic">{projects[5].p}</p>
+                                <p>{projects[5].t}</p>
+                            </div>
+                            <div className="card-footer bg-transparent text-muted mt-3">
+                                <a href={projects[5].repo}
+                                    className="btn btn-secondary btn-sm btn-block" target="_blank"
+                                    rel="noopener noreferrer">GitHub Repo</a>
+                                <a href={projects[5].deployed}
+                                    className="btn btn-secondary btn-sm btn-block" target="_blank"
+                                    rel="noopener noreferrer">Deployed App</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className="col-lg-6 mb-3" id="projectCard" key={projects[6].id}>
+                        <div className="card h-100 border-dark">
+                            <img className="card-img-top" src={projects[6].img}></img>
+                            <div className="card-body">
+                                <h2 id="headline1" className="card-title titles">{projects[6].title}</h2>
+                                <p className="card-text italic">{projects[6].p}</p>
+                                <p>{projects[6].t}</p>
+                            </div>
+                            <div className="card-footer bg-transparent text-muted mt-3">
+                                <a href={projects[6].repo}
+                                    className="btn btn-secondary btn-sm btn-block" target="_blank"
+                                    rel="noopener noreferrer">GitHub Repo</a>
+                                <a href={projects[6].deployed}
+                                    className="btn btn-secondary btn-sm btn-block" target="_blank"
+                                    rel="noopener noreferrer">Deployed App</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
 
             </div>
         </div>
+
     );
 
 }
