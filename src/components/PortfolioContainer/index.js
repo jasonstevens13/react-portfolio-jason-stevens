@@ -4,6 +4,7 @@ import About from "../pages/About";
 import Projects from "../pages/Projects";
 import Contact from "../pages/Contact";
 import Footer from "../Footer";
+import "./style.css";
 
 class Portfolio extends Component {
   state = {
@@ -27,12 +28,18 @@ class Portfolio extends Component {
   render() {
     return (
       <div>
-        <NavTabs
-          currentPage={this.state.currentPage}
-          handlePageChange={this.handlePageChange}
-        />
-        {this.renderPage()}
-        <Footer />
+        <div className="clearfix">
+          <NavTabs
+            currentPage={this.state.currentPage}
+            handlePageChange={this.handlePageChange}
+          />
+          {this.renderPage()}
+
+        </div>
+        <div>
+          <Footer />
+        </div>
+
       </div>
     );
   }
